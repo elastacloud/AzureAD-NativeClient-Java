@@ -43,11 +43,17 @@ public class PassiveAuthFilter implements Filter {
         {
             HttpServletResponse httpResponse = (HttpServletResponse)response;
             httpResponse.setStatus(HttpServletResponse.SC_FORBIDDEN);
+
+            ((HttpServletRequest) request).getSession().setAttribute(
+                    "verified", false);
         }
         else {
             if (!_validator.verify(token.replace("Bearer", "").trim())) {
                 HttpServletResponse httpResponse = (HttpServletResponse) response;
                 httpResponse.setStatus(HttpServletResponse.SC_FORBIDDEN);
+
+                ((HttpServletRequest) request).getSession().setAttribute(
+                        "verified", false);
             }
             else {
                 ((HttpServletRequest) request).getSession().setAttribute(

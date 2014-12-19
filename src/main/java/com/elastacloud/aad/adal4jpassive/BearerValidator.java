@@ -49,9 +49,7 @@ public class BearerValidator {
         if(token == null || token.length() == 0)
             return false;
 
-        SignedJWT jwt = null;
-
-        jwt = parseToken(token);
+        SignedJWT jwt = parseToken(token);
 
         if(jwt != null && _cert != null)
          return verifySignature(jwt, _cert) && validateAudience(jwt) && validateIssuer(jwt);
