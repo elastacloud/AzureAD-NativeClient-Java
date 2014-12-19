@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.microsoft.aad:adal4j:0.0.2-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/aad/adal4j/0.0.2-SNAPSHOT/adal4j-0.0.2-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/aad/adal4j/0.0.2-SNAPSHOT/adal4j-0.0.2-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/microsoft/aad/adal4j/0.0.2-SNAPSHOT/adal4j-0.0.2-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,42 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="adal4jsample:war exploded">
+    <output-path>$PROJECT_DIR$/target/sample-for-adal4j</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="adal4jpassive" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.microsoft.aad:adal4j:0.0.2-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.nimbusds:oauth2-oidc-sdk:4.5" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.7" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: net.jcip:jcip-annotations:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Maven: net.minidev:json-smart:1.1.1" />
+          <element id="library" level="project" name="Maven: com.nimbusds:lang-tag:1.4" />
+          <element id="library" level="project" name="Maven: com.nimbusds:nimbus-jose-jwt:3.1.2" />
+          <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk15on:1.51" />
+          <element id="library" level="project" name="Maven: org.json:json:20090211" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: com.auth0:java-jwt:1.0.0" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="adal4jpassive/web/Web" />
+    </root>
+  </artifact>
+</component>

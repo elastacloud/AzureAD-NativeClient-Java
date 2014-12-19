@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="adal4jsample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="adal4jsample.war">
+      <element id="artifact" artifact-name="adal4jsample:war exploded" />
+    </root>
+  </artifact>
+</component>
