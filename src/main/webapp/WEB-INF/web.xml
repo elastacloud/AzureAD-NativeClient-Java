@@ -10,19 +10,19 @@
 	</context-param>
     <context-param>
         <param-name>client_id</param-name>
-        <param-value>77113dd4-97a5-4d43-83f9-fae5422a219f</param-value>
+        <param-value>--CLIENT-ID--</param-value>
     </context-param>
     <context-param>
         <param-name>issuer</param-name>
-        <param-value>https://sts.windows.net/124f099e-5a0c-49f2-95f6-25933e8aec3f/</param-value>
+        <param-value>https://sts.windows.net/--ISSUER-ID--/</param-value>
     </context-param>
     <context-param>
         <param-name>audience</param-name>
-        <param-value>http://elastacloud-webapi/webapi</param-value>
+        <param-value>--YOUR_AUDIENCE--</param-value>
     </context-param>
     <context-param>
         <param-name>feddocendpoint</param-name>
-        <param-value>https://login.windows.net/124f099e-5a0c-49f2-95f6-25933e8aec3f/federationmetadata/2007-06/federationmetadata.xml</param-value>
+        <param-value>https://login.windows.net/--ISSUER-ID--/federationmetadata/2007-06/federationmetadata.xml</param-value>
     </context-param>
 
     <filter>

@@ -17,6 +17,8 @@ import java.text.ParseException;
 
 public class main {
     public static void main(String[] args) throws ParseException, NoSuchAlgorithmException, InvalidKeyException, IOException, ParserConfigurationException, SAXException, TransformerException, XPathExpressionException, CertificateException, JOSEException {
-       //refer to 
+        // refer to https://github.com/azureadsamples/nativeclient-dotnet for how to generate
+        // a bearer token, then use this token at http://localhost:8080/secure/passive
+        // view ~/sample/*.saz for samples of how this works
     }
 }
